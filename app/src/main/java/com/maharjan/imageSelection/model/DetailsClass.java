@@ -1,4 +1,4 @@
-package com.shresthagaurav.classroomwork.model;
+package com.maharjan.imageSelection.model;
 
 public class DetailsClass {
     private String  name;

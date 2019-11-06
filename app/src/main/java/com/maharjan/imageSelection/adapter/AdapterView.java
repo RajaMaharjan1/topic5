@@ -1,4 +1,4 @@
-package com.shresthagaurav.classroomwork.adapter;
+package com.maharjan.imageSelection.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.shresthagaurav.classroomwork.R;
-import com.shresthagaurav.classroomwork.model.DetailsClass;
+import com.maharjan.imageSelection.model.DetailsClass;
+import com.maharjan.classroomwork.R;
 
 import java.util.List;
 

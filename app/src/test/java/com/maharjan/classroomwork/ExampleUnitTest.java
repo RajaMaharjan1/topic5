@@ -1,4 +1,4 @@
-package com.shresthagaurav.classroomwork;
+package com.maharjan.classroomwork;
 
 import org.junit.Test;
 

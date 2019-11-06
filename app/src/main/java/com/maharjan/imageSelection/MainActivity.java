@@ -1,4 +1,4 @@
-package com.shresthagaurav.classroomwork;
+package com.maharjan.imageSelection;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -12,10 +12,10 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
-import android.widget.Toast;
 
-import com.shresthagaurav.classroomwork.adapter.AdapterView;
-import com.shresthagaurav.classroomwork.model.DetailsClass;
+import com.maharjan.classroomwork.R;
+import com.maharjan.imageSelection.adapter.AdapterView;
+import com.maharjan.imageSelection.model.DetailsClass;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,7 @@ RadioGroup radioGroup;
 Spinner spinnerimg;
 RecyclerView viewR;
 Button btnsave;
-    String gender;
+String gender;
 
 
     @Override
@@ -44,28 +44,23 @@ Button btnsave;
         radioGroup=findViewById(R.id.genderG);
         final List<DetailsClass> detailsClasses= new ArrayList<>();
          final int[] title = {
-                (R.drawable.bird),
+
                 (R.drawable.cat),
-                 (R.drawable.cat1),
-                 (R.drawable.dahayang),
-                 (R.drawable.empty),
-                 (R.drawable.fish),
-                 (R.drawable.husky),
-                 (R.drawable.pig),
-                 (R.drawable.rabbit),
-                 (R.drawable.rat),
+                 (R.drawable.dog),
+                 (R.drawable.elephant),
+                 (R.drawable.horse),
+                 (R.drawable.lion),
+                 (R.drawable.tiger),
+
         };
         final String[] titlenaME = {
-                "bird",
+
                 "cat",
-                "cat1",
-                "dahayang",
-                "empty",
-                "fish",
-                "husky",
-                "pig",
-                "rabbit",
-                "rat"
+                "dog",
+                "elephant",
+                "horse",
+                "lion",
+                "tiger"
         };
         ArrayAdapter<String> imgtitle= new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, titlenaME);
         spinnerimg.setAdapter(imgtitle);

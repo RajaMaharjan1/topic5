@@ -1,6 +1,6 @@
-package com.shresthagaurav.classroomwork.control;
+package com.maharjan.imageSelection.control;
 
-import com.shresthagaurav.classroomwork.model.DetailsClass;
+import com.maharjan.imageSelection.model.DetailsClass;
 
 public class storeClass implements StoreValue {
     @Override

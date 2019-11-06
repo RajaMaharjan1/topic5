@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.maharjan.imageSelection.MainActivity">
 
 
 
@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:hint="Name" />
+        android:hint="Enter Name" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,7 +22,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Select Gender"
-        android:textSize="26dp" />
+        android:textSize="20dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Female" />
+                android:text="Male" />
 
             <RadioButton
                 android:id="@+id/rbm"
@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
-                android:text="Male" />
+                android:text="Female" />
         </RadioGroup>
     </LinearLayout>
 
@@ -70,7 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="AGE"
+            android:hint="Enter Age"
             android:inputType="number" />
     </LinearLayout>
 
